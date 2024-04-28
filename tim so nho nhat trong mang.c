@@ -9,6 +9,6 @@ int main() {
             nho_nhat = mang[i];
         }
     }
-    printf(" %d ", nho_nhat );
+    printf(" So nho nhat trong mang la : %d ", nho_nhat );
     return 0;
 }
