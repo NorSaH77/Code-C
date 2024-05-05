@@ -11,7 +11,7 @@ int main(){
   }
   for(i=1;i<=n;i++){
     T+=i*(i+1);
-    printf("\nTong cua T = 1*2+2*3+...+n*(n+1) la : %d",T);
   }
+  printf("\nTong cua T = 1*2+2*3+...+n*(n+1) la : %d",T);
   return 0;
 }
