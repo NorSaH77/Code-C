@@ -12,6 +12,6 @@ int main(){
   for(i=1;i<=n;i++){
     T*=i;
   }
-  printf("\nTong cua T = 1*2*3*...*n la : %d",T);
+  printf("\nTich cua T = 1*2*3*...*n la : %d",T);
   return 0;
 }
