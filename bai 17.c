@@ -6,8 +6,8 @@ int main(){
     float T;
     printf("nhap so nguyen n : ");
     scanf("%d",&n);
-    if(n<1){
-    printf("\nso ban vua nhap khong hop le , hay nhap lai so >=1 : ");
+    if(n<0){
+    printf("\nso ban vua nhap khong hop le , hay nhap lai so >=0 : ");
     scanf("%d",&n);
     }
     for(i=1;i<=n;i++){
