@@ -10,8 +10,8 @@ int main(){
     printf("\nnhap so nguyen n : ");
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        A+=(float)100+pow((-1),(i+1))*x/(10*i);
+        A+=(float)pow((-1),(i+1))*x/(10*i);
     }
-    printf("\nBieu thuc A = %.2f",A);
+    printf("\nBieu thuc A = %.2f",100+A);
     return 0;
 }
