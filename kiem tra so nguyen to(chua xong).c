@@ -8,10 +8,15 @@ void nhapso(int *n){
 }
 
 int nguyento(int a){
-    if(a%(a-1)==0){
-        return printf("\nday khong phai la so nguyen to");
+    int s=0,i;
+    for(i=2;i<a;i++){
+        if(a%i==0)
+        s++;
+    }
+    if(s==0){
+    printf("\nday la so nguyen to");
     }else{
-        return printf("\nday la so nguyen to");
+    printf("\nday khong phai la so nguyen to");
     }
 }
 
